@@ -1,11 +1,11 @@
 {
-  "name": "tiny-retry",
+  "name": "tiny-retry-js",
   "version": "0.1.0",
-  "description": "Zero-dependency exponential-backoff retry with jitter, hooks, and async support — built for AI agent resilience",
+  "description": "Zero-dependency exponential-backoff retry with jitter, hooks, and async support \u2014 built for AI agent resilience",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "test": "node --test test/"
+    "test": "node --test test/*.test.js"
   },
   "keywords": [
     "retry",
@@ -26,6 +26,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/hussain-alsaibai/tiny-retry.git"
+    "url": "https://github.com/hussain-alsaibai/tiny-retry-js.git"
   }
 }
